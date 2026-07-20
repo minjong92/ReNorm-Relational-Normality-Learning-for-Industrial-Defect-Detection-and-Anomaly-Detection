@@ -1,0 +1,17 @@
+20251101~20251105
+1. 1d 
+- yolov5에 적용한 ContinuityHead클래스 yolov12코드에 적용
+
+20251110
+1. 2d
+- ContinuityHead컨셉 유지한채로 2d연산하도록 ContinuityHead2D클래스 및 npp_loss_2d함수 추가.
+
+20251118
+1. 2d
+- ContinuityHead2D클래스의 MaskedConv2d클래스 내부 forward연산시
+  self.weight.data 변수를 갱신하여 내부 weight가 0으로 수렴하는 에러 수정..
+
+2. 2d+1d
+- multi_loss 연산(1d,2d) 하도록 수정.
+
+
