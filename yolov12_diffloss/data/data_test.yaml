@@ -1,7 +1,0 @@
-names:
-  0: press
-nc: 1
-path: E:/mj/MODEL/contiunity_test/yolov12_test/v12_diff/dataset
-test: images/test
-train: images/train
-val: images/val

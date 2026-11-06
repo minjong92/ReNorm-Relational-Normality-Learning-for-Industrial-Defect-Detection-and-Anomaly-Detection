@@ -1,4 +1,0 @@
-path: E:/mj/MODEL/contiunity_test/yolov12_test/v12_diff/data_0.75
-train: train/images
-val: val/images
-names: ['press']

@@ -1,9 +1,0 @@
-path: E:\mj\MODEL\contiunity_test\yolov12_test\v12_diff\cs_train
-train: images/train
-val: images/val
-
-names:
-  0: Scratch
-  1: Dent
-  2: Illum_D
-  3: Illum_B
